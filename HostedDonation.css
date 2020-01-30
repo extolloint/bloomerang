@@ -82,3 +82,7 @@ body div#orgInfo {
 h2 {
     margin: 0px;
 }
+
+.check-with-label:checked + .label-for-check {
+  font-weight: bold;
+}
