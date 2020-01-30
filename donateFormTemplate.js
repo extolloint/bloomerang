@@ -9,16 +9,21 @@
 </head>
 
 <body>
+
 <div id="wrapper">
 <a href="https://bloomerang.co/donate-securely-bloomerang" target="_blank" class="secureDonationBanner">
 <img src="https://crm.bloomerang.co/Content/Images/SecureDonationBanner.png" alt="Secure donation via Bloomerang"></a>
-<div id="content" class="widgetContent"></div>
+</div>
 
-<!--insert self-hosted code from Bloomerang donation forms between here...
+<div id="content" class="widgetContent">
+<!--<h1>Extollo International</h1> -->
+
+<!--PASTE code from Bloomerang below this comment-->
 
 
-.....and here-->
 
+
+<!--dont delete belwo this line-->
 </div>
 </body>
 </html>
