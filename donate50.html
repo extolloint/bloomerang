@@ -851,7 +851,7 @@
         jQuery(".donation-form .section.donation input[name='donation-level']").change(toggleOtherAmountRequired);
 
         if (jQuery(".donation-form .true-impact label").length) {
-          jQuery(".donation-form .true-impact label")[0].innerHTML = jQuery(".donation-form .true-impact label")[0].innerHTML.replace("[amount]", "<span class='fee-amount'>$0</span>");
+          jQuery(".donation-form .true-impact label")[0].innerHTML = jQuery(".donation-form .true-impact label")[0].innerHTML.replace("[amount]", "<span class='fee-amount'>$1.57</span>");
         }
         Bloomerang.Util.calculateDonationTrueImpact = function() {
           if (!jQuery(".donation-form .true-impact .fee-amount").length) { return; }
