@@ -85,5 +85,5 @@ h2 {
 
 input:checked ~ span {
   font-weight: bold;
-  font-size: 200%;
+  font-size: 110%;
 }
