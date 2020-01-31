@@ -85,4 +85,5 @@ h2 {
 
 .check-with-label:checked + .label-for-check {
   font-weight: bold;
+  font-size: 120%;
 }
