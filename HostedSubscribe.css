@@ -52,7 +52,7 @@ body div#content {
     -moz-box-sizing:border-box;
     box-sizing:border-box;
     background:#f8f8f8;
-    background-color:rgba(248,248,248,0.8);
+    opacity:0.8;
     border-radius:10px;
     float: left;
 }
