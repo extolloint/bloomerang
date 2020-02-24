@@ -40,6 +40,7 @@ body select {
 
 body > div#wrapper {
     max-width: 980px;
+    opacity: 0.5;
     margin: 0 auto;
 }
 
