@@ -115,7 +115,7 @@
 '<input id="email-address" name="email-address" class="email required" type="email" placeholder="someone@website.com"></input>' + 
 '</div>' + 
 '<div class="field tel phone-number" >' + 
-'<label for="phone-number"><span class="label">Phone</span></label>' + 
+'<label for="phone-number"><span class="label">Phone</span><span class="required-star">*</span></label>' + 
 '<input id="phone-number" name="phone-number" class="phoneUS" type="tel"></input>' + 
 '</div>' + 
 '' + 
@@ -376,11 +376,11 @@
 '</select>' + 
 '</div>' + 
 '<div class="field  street-address" >' + 
-'<label for="street-address"><span class="label">Address</span></label>' + 
+'<label for="street-address"><span class="label">Address</span><span class="required-star">*</span></label>' + 
 '<textarea id="street-address" name="street-address"></textarea>' + 
 '</div>' + 
 '<div class="field text city" >' + 
-'<label for="city"><span class="label">City</span></label>' + 
+'<label for="city"><span class="label">City</span><span class="required-star">*</span></label>' + 
 '<input id="city" name="city" type="text" data-us-label="City" data-bm-label="Parish"></input>' + 
 '</div>' + 
 '<div class="field  state" >' + 
@@ -469,15 +469,46 @@
 '<input id="zip-code" name="zip-code" class="zipcodeUS" type="number" minlength="5" maxlength="10"></input>' + 
 '</div>' + 
 '<div class="field text postal-code" style="display: none">' + 
-'<label for="postal-code"><span class="label">Postal Code</span></label>' + 
+'<label for="postal-code"><span class="label">Postal Code</span><span class="required-star">*</span></label>' + 
 '<input id="postal-code" name="postal-code" type="text"></input>' + 
 '</div>' + 
 '' + 
 '</div>' + 
-'    ' + 
+'    <div class="section custom-fields">' + 
+'      <h3>Additional Information</h3>' + 
+'      <div class="field text CustomAccountField_63600640" >' + 
+'<label for="CustomAccountField_63600640">What time of year best fits your availability?</label>' + 
+'<div id="CustomAccountField_63600640" class="checkboxes"><a href="javascript:void(0)" class="checkbox" data-id="63601664" onclick="var box = jQuery(this).children(\'input\'); box.prop(\'checked\', !box.prop(\'checked\'));jQuery(box).trigger(\'change\'); return false;">' + 
+'                                <input type="checkbox" value="63601664" onchange="jQuery(this).closest(\'.checkbox\').toggleClass(\'selected\')">' + 
+'                                <span class="text">Spring</span>' + 
+'                              </a>' + 
+'<a href="javascript:void(0)" class="checkbox" data-id="63602688" onclick="var box = jQuery(this).children(\'input\'); box.prop(\'checked\', !box.prop(\'checked\'));jQuery(box).trigger(\'change\'); return false;">' + 
+'                                <input type="checkbox" value="63602688" onchange="jQuery(this).closest(\'.checkbox\').toggleClass(\'selected\')">' + 
+'                                <span class="text">Summer</span>' + 
+'                              </a>' + 
+'<a href="javascript:void(0)" class="checkbox" data-id="63601665" onclick="var box = jQuery(this).children(\'input\'); box.prop(\'checked\', !box.prop(\'checked\'));jQuery(box).trigger(\'change\'); return false;">' + 
+'                                <input type="checkbox" value="63601665" onchange="jQuery(this).closest(\'.checkbox\').toggleClass(\'selected\')">' + 
+'                                <span class="text">Fall</span>' + 
+'                              </a>' + 
+'<a href="javascript:void(0)" class="checkbox" data-id="63602689" onclick="var box = jQuery(this).children(\'input\'); box.prop(\'checked\', !box.prop(\'checked\'));jQuery(box).trigger(\'change\'); return false;">' + 
+'                                <input type="checkbox" value="63602689" onchange="jQuery(this).closest(\'.checkbox\').toggleClass(\'selected\')">' + 
+'                                <span class="text">Winter</span>' + 
+'                              </a>' + 
+'<a href="javascript:void(0)" class="checkbox" data-id="63602690" onclick="var box = jQuery(this).children(\'input\'); box.prop(\'checked\', !box.prop(\'checked\'));jQuery(box).trigger(\'change\'); return false;">' + 
+'                                <input type="checkbox" value="63602690" onchange="jQuery(this).closest(\'.checkbox\').toggleClass(\'selected\')">' + 
+'                                <span class="text">I am flexible on dates</span>' + 
+'                              </a>' + 
+'</div>' + 
+'</div>' + 
+'<div class="field text CustomAccountField_63600641" >' + 
+'<label for="CustomAccountField_63600641"><span class="label">Briefly describe what motivates you to come on a trip with Extollo.</span></label>' + 
+'<input id="CustomAccountField_63600641" name="CustomAccountField_63600641" type="text" maxlength="255"></input>' + 
+'</div>' + 
+'' + 
+'</div>' + 
 '    <div class="section comment">' + 
 '      <div class="field text comment" >' + 
-'<label for="comment"><span class="label">Comments</span></label>' + 
+'<label for="comment"><span class="label">Comments</span><span class="required-star">*</span></label>' + 
 '<textarea id="comment" name="comment" type="text" value="Comments"></textarea>' + 
 '</div>' + 
 '' + 
