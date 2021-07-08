@@ -860,7 +860,7 @@
          });
 
         if (jQuery(".donation-form .true-impact label").length) {
-          jQuery(".donation-form .true-impact label")[0].innerHTML = jQuery(".donation-form .true-impact label")[0].innerHTML.replace("[amount]", "<span class='fee-amount'>$0</span>");
+          jQuery(".donation-form .true-impact label")[0].innerHTML = jQuery(".donation-form .true-impact label")[0].innerHTML.replace("[amount]", "<span class='fee-amount'>$1.14</span>");
         }
         Bloomerang.Util.calculateDonationTrueImpact = function() {
           if (!jQuery(".donation-form .true-impact .fee-amount").length) { return; }
